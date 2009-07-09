@@ -1,0 +1,6 @@
+#!/usr/bin/env ruby
+# -*- ruby -*-
+require 'rubygems'
+require 'covtasks/spec/scmcov'
+
+CovTasks::Spec::SCMCov.run!

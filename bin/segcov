@@ -1,0 +1,7 @@
+#!/usr/bin/env ruby
+# -*- ruby -*-
+require 'rubygems'
+require 'covtasks/spec/segcov'
+
+ENV['FILES'] = ARGV.join(',')
+CovTasks::Spec::SegCov.run!
